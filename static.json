@@ -1,0 +1,11 @@
+{
+    "headers": {
+      "/**": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    "redirects": [
+      { "source": "/api/*", "destination": "https://bitcoin-price-service.onrender.com/", "type": 200 }
+    ]
+  }
+  
